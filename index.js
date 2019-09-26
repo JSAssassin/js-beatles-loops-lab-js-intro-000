@@ -27,10 +27,15 @@ function johnLennonFacts(array) {
 
 function iLoveTheBeatles(num) {
   let newArray = [];
-  do{
+
+  if(num < 15) {
+    do{
+      newArray.push('I love the Beatles!');
+      num--;
+    } while(num >= 0);
+  } else {
     newArray.push('I love the Beatles!');
-    num--;
-  } while(num >= 0);
+  }
 
   return newArray;
 }
