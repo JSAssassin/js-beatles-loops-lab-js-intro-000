@@ -12,3 +12,15 @@ function theBeatlesPlay(musicians, instruments) {
 
   return newArray;
 }
+
+function johnLennonFacts(array) {
+  let newArray = [];
+  let i = 0;
+  while(i < array.length){
+    let string = array[i] + '!!!';
+    newArray.push(string);
+    i++;
+  }
+
+  return newArray;
+}
